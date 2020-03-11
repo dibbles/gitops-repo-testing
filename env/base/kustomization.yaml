@@ -1,3 +1,5 @@
 ---
+bases:
+  - ../../app-1/dev
 resources:
   - 205-serviceaccount.yaml
