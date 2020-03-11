@@ -1,0 +1,4 @@
+---
+resources: 
+  - config/300-deployment.yaml
+  - config/310-service.yaml
