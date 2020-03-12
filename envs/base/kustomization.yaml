@@ -1,5 +1,5 @@
 ---
 bases:
-  - ../../apps/app-1/dev
+  - ../../apps/app-1/staging
 resources:
   - 205-serviceaccount.yaml
