@@ -4,16 +4,11 @@ To see things working:
 
 ```sh
 git checkout dev
-kustomize build services/service-a/dev
-kustomize build apps/app-1/dev
-kustomize build envs/dev
+kustomize build services/service-a/overlays
+kustomize build apps/app-1/overlays
+kustomize build env/overlays
 ```
 
 or `kustomize apply -k` these paths
 
-```sh
-git checkout staging
-kustomize build services/service-a/staging
-kustomize build apps/app-1/staging
-kustomize build envs/staging
-```
+
