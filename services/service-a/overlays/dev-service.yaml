@@ -4,3 +4,4 @@ metadata:
   name: nginx-service
   labels:
     env: dev
+    test: foo
